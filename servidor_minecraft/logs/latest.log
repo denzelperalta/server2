@@ -1,0 +1,22 @@
+[03:18:09] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[03:18:09] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[03:18:09] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.11
+[03:18:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:18:10] [main/ERROR]: Failed to start the minecraft server
+joptsimple.UnrecognizedOptionException: m is not a recognized option
+	at knot//joptsimple.OptionException.unrecognizedOption(OptionException.java:108)
+	at knot//joptsimple.OptionParser.validateOptionCharacters(OptionParser.java:633)
+	at knot//joptsimple.OptionParser.handleShortOptionCluster(OptionParser.java:528)
+	at knot//joptsimple.OptionParser.handleShortOptionToken(OptionParser.java:523)
+	at knot//joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:59)
+	at knot//joptsimple.OptionParser.parse(OptionParser.java:396)
+	at knot//net.minecraft.server.Main.main(Main.java:90)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
